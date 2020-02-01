@@ -1,6 +1,7 @@
 const fs = require('fs')
 
 export const numberToPhrase = (num: string): string => {
+    num = num.replace(/[0-9]/g, '')
     const adjectives = fs.readFileSync('./data/adjectives.txt').toString().split('\n')
     const nouns = fs.readFileSync('./data/nouns.txt').toString().split('\n')
     const subjects = fs.readFileSync('./data/subjects.txt').toString().split('\n')
@@ -59,7 +60,5 @@ export class NumberToPhrase {
     public static phraseToNumber = (phrase: string): string => phraseToNumber(phrase)
     public static randomizeTables = (): boolean => randomizeTables()
 }
-
-console.log(numberToPhrase('5555555555'))
 
 export default NumberToPhrase

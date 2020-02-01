@@ -2,6 +2,7 @@
 exports.__esModule = true;
 var fs = require('fs');
 exports.numberToPhrase = function (num) {
+    num = num.replace(/[0-9]/g, '');
     var adjectives = fs.readFileSync('./data/adjectives.txt').toString().split('\n');
     var nouns = fs.readFileSync('./data/nouns.txt').toString().split('\n');
     var subjects = fs.readFileSync('./data/subjects.txt').toString().split('\n');
@@ -55,5 +56,4 @@ var NumberToPhrase = /** @class */ (function () {
     return NumberToPhrase;
 }());
 exports.NumberToPhrase = NumberToPhrase;
-console.log(exports.numberToPhrase('5555555555'));
 exports["default"] = NumberToPhrase;
