@@ -61,6 +61,4 @@ export class NumberToPhrase {
     public static randomizeTables = (): boolean => randomizeTables()
 }
 
-console.log(numberToPhrase('3608884081'))
-
 export default NumberToPhrase

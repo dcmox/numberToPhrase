@@ -56,5 +56,4 @@ var NumberToPhrase = /** @class */ (function () {
     return NumberToPhrase;
 }());
 exports.NumberToPhrase = NumberToPhrase;
-console.log(exports.numberToPhrase('3608884081'));
 exports["default"] = NumberToPhrase;
