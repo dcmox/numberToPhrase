@@ -1,6 +1,6 @@
 {
   "name": "@dcmox/numbertophrase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Number to Phrase Converter",
   "main": "numberToPhrase.js",
