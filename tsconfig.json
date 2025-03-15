@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
       "target": "esnext",
+      // "module": "esnext",
+      // "moduleDetection": "force",
       "lib": [
         "dom",
         "dom.iterable",
