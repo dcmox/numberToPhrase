@@ -188,8 +188,8 @@ exports.randomizeTables = randomizeTables;
 var NumberToPhrase = /** @class */ (function () {
     function NumberToPhrase() {
     }
-    NumberToPhrase.numberToPhrase = function (num, base64) { return (0, exports.numberToPhrase)(num); };
-    NumberToPhrase.phraseToNumber = function (phrase, base64) { return (0, exports.phraseToNumber)(phrase); };
+    NumberToPhrase.numberToPhrase = function (num) { return (0, exports.numberToPhrase)(num); };
+    NumberToPhrase.phraseToNumber = function (phrase) { return (0, exports.phraseToNumber)(phrase); };
     NumberToPhrase.randomizeTables = function () { return (0, exports.randomizeTables)(); };
     NumberToPhrase.generateMnemonic = function () { return (0, exports.generateMnemonic)(); };
     return NumberToPhrase;

@@ -173,8 +173,8 @@ export const randomizeTables = (): boolean => {
 }
 
 export class NumberToPhrase {
-    public static numberToPhrase = (num: string, base64: boolean): string => numberToPhrase(num)
-    public static phraseToNumber = (phrase: string, base64: boolean): string => phraseToNumber(phrase)
+    public static numberToPhrase = (num: string): string => numberToPhrase(num)
+    public static phraseToNumber = (phrase: string): string => phraseToNumber(phrase)
     public static randomizeTables = (): boolean => randomizeTables()
     public static generateMnemonic = (): Promise<[string, string, string]> => generateMnemonic()
 }
